@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.heading {
+  font-size: 20px;
+  text-align: left;
+}
+.barChart, .piechart {
+  width: 50%;
+  padding: 20px;
+}
+.mainChart {
+  display: flex;
+  align-items: center;
+}
+.barChartState {
+  padding: 20px;
+}
+.stateTable {
+  padding: 20px;
+}
+table {
+  width: 100%;
+}
+table, tr, td, th {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
 }
